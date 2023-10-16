@@ -54,7 +54,16 @@ sam local invoke
 ```
 sam local invoke -e event/event.json
 ```
+3.10 Test function in the cloud
+```
+sam sync --stack-name {{stack-name}} --watch
+eg: sam sync --stack-name demo_lambda_function --watch
+```
 
+3.11 Deploy Lambda on AWS 
+```
+sam deploy --guide
+```
 
 
 
